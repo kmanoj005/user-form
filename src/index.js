@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 let route= createBrowserRouter([
   {
-    path: '/',
+    path: '/:id?',
     element: <UserForm/>
   },
   {

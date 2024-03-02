@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      kudo:["Kdam Thmor Pro", "sans-serif"],
+    }
   },
   plugins: [],
 }
